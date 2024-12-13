@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 
 <head>
@@ -37,50 +36,57 @@
       </div>
     </nav>
   </div>
-  
-  <div class="card" style="position:relative; bottom:-80px;">
-    <div class="card-body">
-      <p class="card-text">
-      <h5>Write a post</h5>
-      <p></p>
-      <form>
-        <div class="mb-3">
-          <input type="text" style="width:100%; height:300px;" class="form-control">
-        </div>
-        <p>Location(Use Google Maps)</p>
-        <div class="input-group">
-          <span class="input-group-text">Longitude</span>
-          <input type="text" aria-label="Longitude" class="form-control">
-          <span class="input-group-text">Latitude</span>
-          <input type="text" aria-label="Latitude" class="form-control">
-        </div>
-        <label for="Date">Date visited</label>
-        <input id="Date" class="form-control" type="date" />
-        <p></p>
-        <div class="mb-3">
-          <label for="formFileMultiple" class="form-label">Attach Files</label>
-          <input class="form-control" type="file" id="formFileMultiple" multiple>
-        </div>
-        Star Rating
-        <input type="range" value="2.5" step="0.5" min="0.5" max="5" oninput="this.nextElementSibling.value = this.value">
-<output>2.5</output><br>
-          <input type="checkbox" class="form-check-input">
-          <label class="form-check-label">Post as "anonymous".</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      
-      
-      </p>
+  <center>
+<div class="w-auto p-3" style="position:relative; bottom:-80px; width:20rem">
+  <div id="amogus" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="bag_coord.png" style="border-radius:12px" class="d-block w-100">
     </div>
+    <div class="carousel-item">
+      <img src="baguio.jpg" style="border-radius:12px" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="baguio1.jpeg" style="border-radius:12px" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="bag1.jpg" style="border-radius:12px" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+        <img src="bag2.jpg" style="border-radius:12px" class="d-block w-100">
+      </div>
   </div>
-  
+  <button class="carousel-control-prev" type="button" data-bs-target="#amogus" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#amogus" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Baguio City</h5>
+    <i>By: keNN</i><p></p>
+    <figure>
+    <blockquote class="blockquote">Baguio, officially the City of Baguio, is a highly urbanized city in the Cordillera Administrative Region, Philippines. 
+        It is known as the "Summer Capital of the Philippines", owing to its cool climate since the city is located approximately 4,810 feet (1,470 meters) above mean sea level, 
+        often cited as 1,540 meters (5,050 feet) in the Luzon tropical pine forests ecoregion, which also makes it conducive for the growth of mossy plants, orchids and pine trees, 
+        to which it attributes its other moniker as the "City of Pines"</blockquote>
+</p>
+<figcaption class="blockquote-footer">
+    Source: <cite title="Source Title">Wikipedia</cite>
+</figcaption>
+</figure>
+  </div>
+</div>
+  </center>
   <nav aria-label="...">
     <ul class="pagination justify-content-end">
+      <li class="page-item"><a class="page-link" href="view.html">1</a></li>
       <li class="page-item active" aria-current="page">
-        <span class="page-link">1</span>
+        <span class="page-link">2</span>
       </li>
-      <li class="page-item"><a class="page-link" href="view_2.html">2</a></li>
       <li class="page-item"><a class="page-link" href="#">3</a></li>
     </ul>
   </nav>
